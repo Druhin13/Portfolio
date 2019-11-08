@@ -48,6 +48,21 @@ section div h1 {
 	letter-spacing: 1.14px;
 	text-align: left;
 	margin-left: 6.5vw;
-	margin-top: 16vh;
+	margin-top: 14.5vh;
+	z-index: 2;
+}
+
+section div h2 {
+	position: absolute;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 2.5vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 1.14px;
+	text-align: left;
+	margin-left: 33vw;
+	margin-top: 21vh;
 	z-index: 2;
 }
