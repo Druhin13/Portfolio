@@ -1,5 +1,27 @@
-
 * {
-  margin : 0;
-  padding : 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(119deg, #000428, #004e92);
+}
+
+.nav {
+	height: 10vh;
+	height: 100vw;
+}
+
+.logo {
+	width: 20vw;
+	height: 100%;
+}
+
+.menu {
+	height: 1.5vh;
+	width: 5vw;
+	position: absolute;
+	right: 0;
 }
