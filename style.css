@@ -66,3 +66,20 @@ section div h2 {
 	margin-top: 21vh;
 	z-index: 2;
 }
+
+section h3 {
+	position: absolute;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.5vh;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.53;
+	letter-spacing: 1.14px;
+	text-align: left;
+	margin-left: 5vw;
+	margin-top: 31vh;
+	z-index: 2;
+	width: 45vw;
+}
