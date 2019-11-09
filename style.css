@@ -3,6 +3,8 @@
 	margin: 0;
 }
 
+body {}
+
 .bg {
 	position: absolute;
 	left: 0%;
@@ -21,7 +23,7 @@ section {
 	height: 55vh;
 	width: 100vw;
 	position: absolute;
-	margin-top: 15vh;
+	margin-top: 13vh;
 }
 
 .logo {
@@ -98,6 +100,10 @@ section {
 		width: 0%;
 	}
 }
+
+
+
+
 
 
 
