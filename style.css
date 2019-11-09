@@ -3,7 +3,6 @@
 	margin: 0;
 }
 
-body {}
 
 .bg {
 	position: absolute;
@@ -14,16 +13,11 @@ body {}
 	z-index: -1;
 }
 
-.nav {
-	height: 10vh;
-	width: 100vw;
-}
-
 section {
 	height: 55vh;
 	width: 100vw;
 	position: absolute;
-	margin-top: 13vh;
+	margin-top: 14vh;
 }
 
 .logo {
@@ -166,13 +160,63 @@ section h3 {
 .works {
 	position: absolute;
 	bottom: 0;
+	left: 0;
 	height: 16vh;
 	width: 51.9vw;
 	-webkit-backdrop-filter: blur(30px);
 	backdrop-filter: blur(30px);
 	box-shadow: 10px 10px 10px 0 #00000029;
 	background-color: #000c20;
+	opacity: 0;
+	animation: image-appear 0.0001s linear forwards;
+	animation-delay: 2.2s;
+	box-shadow: 10px 10px 10px 0 #00000029;
 }
+
+@keyframes image-appear {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.block2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 16vh;
+	background: #001845;
+	animation: block-appear2 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+	animation-delay: 1.5s;
+}
+
+@keyframes block-appear2 {
+	0% {
+		left: 0;
+		width: 0vw;
+	}
+
+	50% {
+		left: 0;
+		width: 51.9vw;
+	}
+
+	100% {
+		left: 0%;
+		width: 0vw;
+	}
+}
+
+
+
+
+
+
 
 .works h1 {
 	color: white;
@@ -185,7 +229,7 @@ section h3 {
 	text-align: left;
 	margin-left: 5vw;
 	margin-top: -1.5vh;
-	z-index: 2;
+	z-index: 2.5;
 }
 
 .resume {
