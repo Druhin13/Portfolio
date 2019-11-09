@@ -11,12 +11,9 @@
 
 <body>
 
-
-
-
 	<div class="bg"></div>
 
-	<nav>
+	<nav class="navbar">
 		<a href="https://druh.in">
 			<img class="logo" src="assets/logo.png">
 		</a>
@@ -33,6 +30,7 @@
 
 		<div class="hero_img_container">
 			<img class="hero_img" src="assets/mainimg.png">
+			<div class="block"></div>
 		</div>
 
 		<h3>Lorem ipsum dolor sit
@@ -60,15 +58,23 @@
 
 	<!-- gsap -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
-	
+
 
 	<script>
+		//bg
 		TweenMax.to(".bg", 2, {
 			width: "100vw",
 			ease: Expo.easeInOut
 		})
-	</script>
 
+		// navbar
+		TweenMax.from(".navbar", 1.5, {
+			delay: 2.5,
+			opacity: 0,
+			y: 25,
+			ease: Expo.easeInOut
+		})
+	</script>
 
 
 </body>
