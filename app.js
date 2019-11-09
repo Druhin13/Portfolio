@@ -33,3 +33,10 @@
 			y: 50,
 			ease: Expo.snap
 		})
+
+		TweenMax.from(".works h1 ", 1.5, {
+			delay: 3,
+			opacity: 0,
+			y: 50,
+			ease: Expo.snap
+		})
