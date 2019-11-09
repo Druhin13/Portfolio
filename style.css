@@ -3,9 +3,7 @@
 	margin: 0;
 }
 
-body {
-
-}
+body {}
 
 .bg {
 	position: absolute;
@@ -44,15 +42,71 @@ section {
 	margin-top: 7vw;
 }
 
-.hero_img {
+.hero_img_container {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	box-shadow: 10px 10px 10px 0 #00000029;
+}
+
+.hero_img {
+	background-position: 50%;
+	right: 0;
+	bottom: 0;
 	width: 69.9vw;
 	height: 50.9vh;
 	object-fit: cover;
+	opacity: 0;
+	animation: image-appear 0.0001s linear forwards;
+	animation-delay: 2.2s;
+	box-shadow: 10px 10px 10px 0 #00000029;
 }
+
+
+@keyframes image-appear {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.block {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0%;
+	height: 100%;
+	background: #001845;
+	animation: block-appear 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+	animation-delay: 1.5s;
+}
+
+@keyframes block-appear {
+	0% {
+		left: 0;
+		width: 0%;
+	}
+
+	50% {
+		left: 0;
+		width: 100%;
+	}
+
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
+
+
+
+
+
+
+
 
 section div h1 {
 	position: absolute;
