@@ -6,7 +6,7 @@
 body {
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(119deg, #000428, #004e92);
+	background-image: linear-gradient(135deg, #000428, #004e92);
 }
 
 .nav {
@@ -43,6 +43,8 @@ section {
 	bottom: 0;
 	box-shadow: 10px 10px 10px 0 #00000029;
 	width: 69.9vw;
+	height: 50.9vh;
+	object-fit: cover;
 }
 
 section div h1 {
