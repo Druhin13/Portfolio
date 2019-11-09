@@ -3,8 +3,6 @@
 	margin: 0;
 }
 
-body {}
-
 .bg {
 	position: absolute;
 	left: 0%;
@@ -100,10 +98,6 @@ section {
 		width: 0%;
 	}
 }
-
-
-
-
 
 
 
