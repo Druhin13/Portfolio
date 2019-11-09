@@ -11,7 +11,14 @@ body {
 
 .nav {
 	height: 10vh;
-	height: 100vw;
+	width: 100vw;
+}
+
+section {
+	height: 55vh;
+	width: 100vw;
+	position: absolute;
+	margin-top: 15vh;
 }
 
 .logo {
@@ -34,7 +41,6 @@ body {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	margin-bottom: 26vh;
 	box-shadow: 10px 10px 10px 0 #00000029;
 	width: 69.9vw;
 }
@@ -50,7 +56,6 @@ section div h1 {
 	letter-spacing: 1.14px;
 	text-align: left;
 	margin-left: 6.5vw;
-	margin-top: 14.5vh;
 	z-index: 2;
 }
 
@@ -65,7 +70,7 @@ section div h2 {
 	letter-spacing: 1.14px;
 	text-align: left;
 	margin-left: 33vw;
-	margin-top: 21vh;
+	margin-top: 6.5vh;
 	z-index: 2;
 }
 
@@ -81,9 +86,18 @@ section h3 {
 	letter-spacing: 1.14px;
 	text-align: left;
 	margin-left: 5vw;
-	margin-top: 31vh;
+	margin-top: 16vh;
 	z-index: 2;
 	width: 45vw;
+}
+
+
+
+.bottom {
+	height: 20vh;
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
 }
 
 .works {
@@ -135,4 +149,3 @@ section h3 {
 	margin-top: 1.75vh;
 	z-index: 2;
 }
-
