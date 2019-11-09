@@ -52,7 +52,7 @@ TweenMax.from(".resume", 1.5, {
 	ease: Expo.easeInOut
 })
 
-var image = document.images[2]
+var image = document.images[3]
 var bigimage = document.createElement("img")
 
 bigimage.onload = function () {
