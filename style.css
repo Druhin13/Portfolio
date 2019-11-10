@@ -315,5 +315,78 @@ section h3 {
 
 
 @media (min-width:768px) {
-	
+
+	.logo {
+		margin-left: 6vw;
+		margin-top: 3.5vh;
+		height: 100%;
+		width: 13.5vw;
+	}
+
+	.menu {
+		margin-top: 3.5vh;
+	}
+
+	section div {
+		margin-top: 4vh;
+	}
+
+	section a div h1 {
+		margin-left: 5.3vw;
+	}
+
+	section a div h2 {
+		margin-left: 25vw;
+	}
+
+	section h3 {
+		margin-left: 6vw;
+		width: 35vw;
+		font-size: 1.6vh;
+	}
+
+	.hero_img {
+		height: 60vh;
+		width: 50vw;
+	}
+
+	.works {
+		height: 20vh;
+		width: 45vw;
+	}
+
+	.block2 {
+		height: 20vh;
+		animation: block-appear4 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+		animation-delay: 1.5s;
+	}
+
+
+
+	@keyframes block-appear4 {
+		0% {
+			left: 0;
+			width: 0vw;
+		}
+
+		50% {
+			left: 0;
+			width: 45vw;
+		}
+
+		100% {
+			left: 0%;
+			width: 0vw;
+		}
+	}
+
+
+	.works h1 {
+		margin-top: -2.2vh;
+		font-size: 2.8vh;
+	}
+
+	.resume {
+		width: 30vw;
+	}
 }
