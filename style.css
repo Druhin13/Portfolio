@@ -14,8 +14,50 @@
 }
 
 .nav-on {
-	display: none;
+	position: absolute;
+	width: 100vw;
+	height: 0vh;
+	background: rgba(0, 0, 0, 0.95);
+	overflow-x: hidden;
+	text-align: center;
+	z-index: 10;
+	transition: all 0.75s;
 }
+
+.nav-on h2,
+.nav-on h3,
+.nav-on h4 {
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.7vh;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 1.14px;
+	margin-top: 2vh;
+}
+
+.nav-on a {
+	text-decoration: none;
+}
+
+.nav-on h3 {
+	margin-top: 30vh;
+}
+
+.nav-on h4 {
+	margin-top: 10vh;
+}
+
+.close {
+	height: 2vh;
+	width: 5vw;
+	position: absolute;
+	right: 0;
+	margin-right: 5vw;
+	margin-top: 7vw;
+}
+
 
 section {
 	height: 55vh;
@@ -262,4 +304,16 @@ section h3 {
 	letter-spacing: 1.14px;
 	margin-top: 1.75vh;
 	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+	
 }
