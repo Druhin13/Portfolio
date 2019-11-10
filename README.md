@@ -1,6 +1,6 @@
 # Portfolio
 <br>
-<b>Initial Design - </b> 
+<b>Initial Desktop Design - </b> 
 <br>
 <br>
 
@@ -13,3 +13,11 @@
 <br>
 
 ![Web 1920 – 2](https://user-images.githubusercontent.com/46156118/68454660-587c3c00-021f-11ea-81fc-c295c51bccdb.png)
+
+<br>
+<br>
+<b>Final Mobile Design - </b> 
+<br>
+<br>
+
+![Screenshot_20191110-131619](https://user-images.githubusercontent.com/46156118/68548116-74463480-040f-11ea-8413-982617adede1.jpg)
