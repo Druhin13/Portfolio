@@ -63,3 +63,12 @@ bigimage.onload = function () {
 setTimeout(function () {
 	bigimage.src = "./assets/mainimg.png";
 }, 50)
+
+
+function openNav() {
+	document.getElementById('nav-on').style.height = "100vh";
+}
+
+function closeNav() {
+	document.getElementById('nav-on').style.height = "0vh";
+}
