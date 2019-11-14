@@ -1078,6 +1078,8 @@
 	}
 }
 
+
+
 @media only screen and (min-width: 992px) {
 	/* Large devices (laptops/desktops) */
 
@@ -1375,4 +1377,94 @@
 		margin-top: 1.75vh;
 		z-index: 2;
 	}
+
+
+
+
+
+	/* changes */
+
+
+	.logo {
+		margin-left: 4.5vw;
+		margin-top: 3.5vh;
+		height: 100%;
+		width: 10.5vw;
+	}
+
+	.menu {
+		margin-top: 3vh;
+		margin-right: 2.5vw;
+	}
+
+	section div {
+		margin-top: 4vh;
+	}
+
+	section a div h1 {
+		margin-left: 7vw;
+		font-size: 6vh;
+	}
+
+	section a div h2 {
+		margin-top: 7vh;
+		margin-left: 23.5vw;
+		font-size: 2.8vh;
+	}
+
+	section h3 {
+		margin-top: 20vh;
+		margin-left: 7.5vw;
+		width: 25vw;
+		font-size: 1.6vh;
+	}
+
+	.hero_img {
+		height: 60vh;
+		width: 50vw;
+	}
+
+	.works {
+		height: 20vh;
+		width: 40vw;
+	}
+
+	.block2 {
+		height: 20vh;
+		animation: block-appear4 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+		animation-delay: 1.5s;
+	}
+
+	@keyframes block-appear4 {
+		0% {
+			left: 0;
+			width: 0vw;
+		}
+
+		50% {
+			left: 0;
+			width: 45vw;
+		}
+
+		100% {
+			left: 0%;
+			width: 0vw;
+		}
+	}
+
+	.works h1 {
+		margin-left: 4.5vw;
+		margin-top: -2.2vh;
+		font-size: 2.7vh;
+	}
+
+	.resume {
+		width: 26vw;
+	}
+
+	.resume h1 {
+		font-size: 1.8vh;
+	}
+
+
 }
