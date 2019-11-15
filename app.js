@@ -1,3 +1,5 @@
+
+
 //bg
 TweenMax.to(".bg", 2, {
 	width: "100vw",
@@ -52,8 +54,11 @@ TweenMax.from(".resume", 1.5, {
 	ease: Expo.easeInOut
 })
 
+
+
 var image = document.images[3]
 var bigimage = document.createElement("img")
+
 
 bigimage.onload = function () {
 	image.src = this.src
