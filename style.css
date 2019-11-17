@@ -127,7 +127,6 @@
 		animation: block-appear 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 		animation-delay: 1.5s;
 	}
-	
 
 	@keyframes block-appear {
 		0% {
@@ -149,7 +148,6 @@
 
 
 
-	
 
 
 
@@ -199,6 +197,7 @@
 		z-index: 2;
 		width: 45vw;
 	}
+
 
 
 	.bottom {
@@ -1545,7 +1544,6 @@
 	section {
 		height: 55vh;
 		width: 100vw;
-		position: absolute;
 		margin-top: 14vh;
 	}
 
@@ -1566,18 +1564,12 @@
 	}
 
 	.hero_img_container {
-		position: absolute;
 		right: 0;
 		bottom: 0;
 	}
 
 	.hero_img {
 		background-position: 50%;
-		right: 0;
-		bottom: 0;
-		width: 69.9vw;
-		height: 50.9vh;
-		object-fit: cover;
 		opacity: 0;
 		animation: image-appear 0.0001s linear forwards;
 		animation-delay: 2.2s;
@@ -1669,8 +1661,6 @@
 		z-index: 2;
 		width: 45vw;
 	}
-
-
 
 	.bottom {
 		height: 20vh;
@@ -1790,23 +1780,25 @@
 	}
 
 	.menu {
+		display: none;
 		margin-top: 3vh;
 		margin-right: 2.5vw;
 	}
 
 	section div {
+		position: absolute;
 		margin-top: 4vh;
 	}
 
 	section a div h1 {
-		margin-left: 7vw;
-		font-size: 6vh;
+		margin-left: 18vw;
+		font-size: 8vh;
 	}
 
 	section a div h2 {
-		margin-top: 7vh;
-		margin-left: 23.5vw;
-		font-size: 2.8vh;
+		margin-top: 9vh;
+		margin-left: 27vw;
+		font-size: 3.5vh;
 	}
 
 	section h3 {
@@ -1817,8 +1809,10 @@
 	}
 
 	.hero_img {
-		height: 60vh;
-		width: 50vw;
+		position: absolute;
+		height: 100vh;
+		width: 30vw;
+		bottom: 0;
 	}
 
 	.works {
@@ -1862,5 +1856,41 @@
 	.resume h1 {
 		font-size: 1.8vh;
 	}
+
+	section {
+		display: none;
+	}
+
+	.bottom {
+		display: none;
+	}
+
+
+	/* pc changes */
+
+	.pc_resume {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 12vw;
+		height: 8vh;
+		box-shadow: 10px 10px 10px 0 #00000029;
+		background-color: #000c20;
+		text-align: center;
+	}
+
+	.pc_resume h1 {
+		font-family: Montserrat;
+		font-size: 2.1vh;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.22;
+		letter-spacing: normal;
+		color: #ffffff;
+		margin-top: 2.6vh;
+	}
+
+
 
 }
